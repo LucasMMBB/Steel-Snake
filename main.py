@@ -11,15 +11,24 @@ s3 = Servo(3)
 
 # Test servo 1 at pin X1 on the pyboard
 s1.angle(45,2000) # move to 45 degrees in 2 seconds
+pyb.delay(1000) # wait 1 second
 s1.angle(-45,2000) # move to -45 degrees in 2 seconds
+pyb.delay(1000) # wait 1 second
+s1.angle(0,2000) # move to 0 degrees in 2 seconds
+pyb.delay(1000) # wait 1 second
+
+# Test servo 2 at pin X2 on the pyboard
+s1.angle(45,2000) 
+pyb.delay(1000) 
+s1.angle(-45,2000)
+pyb.delay(1000)
+s1.angle(0,2000)
 pyb.delay(1000)
 
-# move to -60 degrees over 1.5 seconds
-s1.angle(-60, 2000)
-
-# speed up to a speed of 20 over 2 seconds
-#s2.speed(20, 1000)
-
-# wait 3 seconds then stop servo
-pyb.delay(3000)
-#s2.speed(0)
+# Test servo 3 at pin X3 on the pyboard
+s1.angle(45,2000)
+pyb.delay(1000)
+s1.angle(-45,2000)
+pyb.delay(1000)
+s1.angle(0,2000)
+pyb.delay(1000)
