@@ -1,2 +1,3 @@
 # Steel-Snake
-In this file, i added more servos.
+Version 2
+Added three switches to control snake move
