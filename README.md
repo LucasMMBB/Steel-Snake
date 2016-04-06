@@ -1,2 +1,4 @@
 # Steel-Snake
-In this file, i added more servos.
+main.py: version 1
+mainAccel.py: version 3
+      Add the accelerometer function to control roboric arm by turning pyboard
