@@ -1,18 +1,15 @@
 # main.py -- put your code here!
 # main.py -- put your code here!
 '''
-***********************************  MAIN  **************************************
-*main.py used in pyboard.
-*Author: Maoxu Liu
-*Team: Grant, Dwight
-*Version: 3 
-*Description: Demo for Steel Snake moving like a real snake and in this version
-*i added the function to use accelerometer to control snake movement.
-*Improvment: Detect the angle of pyboard by use of accelerometer and use this
-*angle as a parameter to control it.
-*Create date: 3/15/2016
-*Last modified date: 4/6/2016
----------------------------------------------------------------------------------
+main.py used in pyboard.
+Author: Maoxu Liu
+Team: Grant, Dwight
+Version: 3 
+Description: Demo for Steel Snake moving like a real snake and in this version
+i added the function to use accelerometer to control snake movement.
+Improvment: Detect the angle of pyboard by use of accelerometer and use this
+angle as a parameter to control it.
+Create date: 3/15/2016   Last modified date: 4/6/2016
 '''
 
 
@@ -141,7 +138,7 @@ def XControlAll():
 	l3.off()
 	l4.off()
 # function definations ends
-
+'''
 # Define input pins with PULL UP mode
 Pinsw1 = Pin('Y6', Pin.IN,Pin.PULL_UP)
 Pinsw2 = Pin('Y7', Pin.IN,Pin.PULL_UP)
@@ -207,3 +204,5 @@ while (index==0):
 		#index=index+1
 		#pyb.delay(2000)
 		#pyb.delay(2000)
+		
+'''
